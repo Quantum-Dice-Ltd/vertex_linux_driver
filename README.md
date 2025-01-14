@@ -16,3 +16,8 @@ QRNG:  Modprobe config already exists
 QRNG:  Updated module dependencies
 QRNG:  DONE
 ```
+
+NB: Use the command below to install the kernel module pre-requisites if they are not installed on the machine yet. 
+```bash 
+sudo apt install build-essential dkms linux-headers-$(uname -r) -y
+```
